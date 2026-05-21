@@ -7,7 +7,7 @@ internal class Db : DbContext
 {
     public Db()
     {
-        Database.EnsureDeleted();
+        // Database.EnsureDeleted();
         Database.EnsureCreated();
     }
 
